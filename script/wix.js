@@ -8,7 +8,6 @@
             this.section4();
             this.section5();
             this.section6();
-            this.goTop();
         },
         scrollEvent:function(){
 
@@ -112,8 +111,7 @@
                 }
             })
 
-        },
-        goTop:function(){}
+        }
     };
 
     wix.init();

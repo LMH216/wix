@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* skip */
+#skip {position: fixed; top: 0; left: 0; z-index: 2; width: 100%;}
+#skip li {width: 100%;}
+#skip li a {display: block; width: 100%; text-align: center; line-height: 0; font-size: 0; background: #000; color: #fff;}
+#skip li a:focus {line-height: 40px; font-size: 15px;}
+
+/* base */
+#wrap {position: relative; z-index: 1; width: 100%; height: 100%;}
+
+/* header */
+#wrap #header {position: fixed; z-index: 3; width: 100%; height: 80px; background: #222;}
+#wrap #header .left {float: left; width: 12.401%; height: 100%; background: #E84A43; text-align: center; line-height: 75px;}
+#wrap #header .left h1 {width: 100%; height: 100%;}
+#wrap #header .left h1 a {font-size: 22px; font-weight: 600;}
+
+#wrap #header .right {float: left; position: relative; width: 87.599%; height: 100%; background: #151A2C;}
+#wrap #header .right #nav {position: absolute; top: 20%; right: 2%; width: 700px; height: 50px;}
+#wrap #header .right #nav #gnb {width: 100%;}
+#wrap #header .right #nav #gnb li {float: left; width: 16.666%;}
+#wrap #header .right #nav #gnb li a {display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; font-size: 16px; transition: all .4s;}
+#wrap #header .right #nav #gnb li a.addHover {color: #E84A43;}
+#wrap #header .right #nav #gnb li a:hover {color: #E84A43;}
+#wrap #header .right #nav #gnb li a:focus {color: #E84A43;}
+
+/* main */
+#wrap #main {position: relative; z-index: 1; width: 100%; padding-top: 80px;}
+
+/* section1 */
+#wrap #main #section1 {position: relative; z-index: 1; width: 100%; height: 985px; background: url(../images/c19c76_d01523e084264fcb96d760d972551b27_mv2_d_5590_3752_s_4_2.jpg) no-repeat 50% 50% fixed; background-size: cover;}
+#wrap #main #section1 .wrap {width: 780px; height: 100%; margin: 0 auto;}
+#wrap #main #section1 .wrap .title {padding-top: 70px; line-height: 80px;}
+#wrap #main #section1 .wrap .title h2 {font-size: 70px; font-weight: 600;}
+#wrap #main #section1 .wrap .title h3 {font-size: 70px; padding-bottom: 80px; border-bottom: 1px solid #fff;}
+#wrap #main #section1 .wrap .sub-title {position: relative; top: -1.3%;}
+#wrap #main #section1 .wrap .sub-title span {position: relative; display: inline-block; font-size: 22px; margin: 0 10px;}
+#wrap #main #section1 .wrap .sub-title span i {display: inline-block; width: 1px; height: 52px; background: #fff;}
+#wrap #main #section1 .wrap .sub-title span a {display: inline-block; margin: 22px 0 0 195px; background: #E84A43; width: 164px; height: 55px; font-size: 16px; text-align: center; line-height: 55px; transition: all .2s;}
+#wrap #main #section1 .wrap .sub-title span a:hover {opacity: .7;}
+#wrap #main #section1 .wrap .sub-title span a:focus {opacity: .7;}
+
+/* section2 */
+#wrap #main #section2 {position: relative; z-index: 2; width: 100%; height: 934px; background: #E84A43;}
+#wrap #main #section2 .wrap {width: 780px; height: 100%; margin: 0 auto; padding: 200px 0;}
+#wrap #main #section2 .wrap .title {width: 100%; padding-bottom: 80px; border-bottom: 1px solid #fff;}
+#wrap #main #section2 .wrap .title h2 {font-size: 70px;}
+#wrap #main #section2 .wrap .sub-title {width: 100%; padding-bottom: 50px;}
+#wrap #main #section2 .wrap .sub-title span {font-size: 22px; margin: 0 17px;}
+#wrap #main #section2 .wrap .sub-title span:first-child {padding-right: 90px;}
+#wrap #main #section2 .wrap .sub-title span i {display: inline-block; width: 1px; height: 52px; background: #fff;}
+#wrap #main #section2 .wrap .text p {font-size: 16.5px; line-height: 150%;}
+#wrap #main #section2 .wrap .text p:last-child {font-size: 22px; line-height: 150%; padding-top: 50px;}
+
+/* section3 */
+#wrap #main #section3 {position: relative; z-index: 1; width: 100%; height: 650px; background: url(../images/c19c76_8599f94d13444813a78ab5704f83932f_mv2_d_5760_3620_s_4_2.jpg) no-repeat fixed; background-size: cover;}
+#wrap #main #section3 .wrap {width: 780px; height: 100%; margin: 0 auto; padding: 150.5px 0;}
+#wrap #main #section3 .wrap .title {width: 100%; padding-bottom: 80px; border-bottom: 1px solid #fff;}
+#wrap #main #section3 .wrap .title h2 {font-size: 70px;}
+#wrap #main #section3 .wrap .sub-title {width: 100%; padding: 40px 0;}
+#wrap #main #section3 .wrap .sub-title span {font-size: 22px;}
+#wrap #main #section3 .wrap .text p {font-size: 16.5px; line-height: 150%;}
+
+/* section4 */
+#wrap #main #section4 {position: relative; z-index: 2; width: 100%; height: 350px; background: #E84A43;}
+#wrap #main #section4 .background {position: relative; z-index: 2; width: 100%; height: 100%; background: url(../images/c19c76_afd387b3ff00475abac719c3d6b2817b_mv2.PNG) fixed; opacity: .3;}
+#wrap #main #section4 .wrap {position: absolute; z-index: 2; top: 0; left: 50%; z-index: 2; width: 780px; height: 100%; margin-left: -390px;}
+
+#wrap #main #section4 .wrap .title {position: absolute; top: 0; text-align: center; width: 100%; padding-bottom: 20px; opacity: 0; transition: all 2s;}
+#wrap #main #section4 .wrap .title.addAni {top: 23%; opacity: 1;}
+#wrap #main #section4 .wrap .title h2 {display: inline-block; font-size: 70px; margin: 0 32px;}
+
+#wrap #main #section4 .wrap .sub-title {position: absolute; top: 14%; text-align: center; width: 100%; opacity: 0; transition: all 2.5s;}
+#wrap #main #section4 .wrap .sub-title span {font-size: 22px; margin: 0 54.5px;}
+#wrap #main #section4 .wrap .sub-title.addAni {top: 51%; opacity: 1;}
+
+#wrap #main #section4 .wrap .line {position: relative; top: 70%; width: 100%; border-bottom: 1px solid #fff;}
+#wrap #main #section4 .wrap .line01 {position: absolute; top: 48%; left: 26%; width: 1px; height: 52px; background: #fff;}
+#wrap #main #section4 .wrap .line02 {position: absolute; top: 48%; left: 52%; width: 1px; height: 52px; background: #fff;}
+#wrap #main #section4 .wrap .line03 {position: absolute; top: 48%; left: 73%; width: 1px; height: 52px; background: #fff;}
+
+/* section5 */
+#wrap #main #section5 {position: relative; z-index: 2; width: 100%; height: 854px; background: #151A2C;}
+#wrap #main #section5 .wrap {width: 780px; height: 100%; margin: 0 auto;}
+#wrap #main #section5 .wrap .title {padding: 91px 0 53px 0; border-bottom: 1px solid #fff;}
+#wrap #main #section5 .wrap .title h2 {font-size: 70px;}
+#wrap #main #section5 .wrap .sub-title {padding: 24px 0 58px 0;}
+#wrap #main #section5 .wrap .sub-title span {font-size: 22px;}
+#wrap #main #section5 .wrap .content {width: 100%; height: 100%; height: 535px;}
+#wrap #main #section5 .wrap .content .span-background {position: relative; display: inline-block; height: 353px; background: #fff;}
+#wrap #main #section5 .wrap .content span {position: relative; display: inline-block; height: 353px; background: #fff;}
+#wrap #main #section5 .wrap .content span:nth-child(2) {margin: 0 34px;}
+#wrap #main #section5 .wrap .content span img {position: relative; z-index: 2; width: 100%; opacity: 1; transition: all .3s;}
+#wrap #main #section5 .wrap .content span img.addImg {opacity: .3; z-index: 1;}
+#wrap #main #section5 .wrap .content span .text {position: absolute; z-index: 1; top: 40%; left: 25%; text-align: center; color: #000;}
+#wrap #main #section5 .wrap .content span .text.addImg {z-index: 2;}
+#wrap #main #section5 .wrap .content span .text h3 {display: block; font-size: 25px; line-height: 150%;}
+#wrap #main #section5 .wrap .content span .text h4 {display: block; font-size: 18px; line-height: 150%;}
+
+/* section6 */
+#wrap #main #section6 {position: relative; z-index: 2; width: 100%; height: 650px; background: #E84A43;}
+#wrap #main #section6 .wrap {width: 780px; height: 100%; margin: 0 auto;}
+#wrap #main #section6 .wrap .title {padding: 105px 0 52px 0; border-bottom: 1px solid #fff;}
+#wrap #main #section6 .wrap .title h2 {font-size: 70px;}
+#wrap #main #section6 .wrap .content {width: 100%; height: 422px;}
+#wrap #main #section6 .wrap .content ul {padding: 3px 0; height: 100%;}
+#wrap #main #section6 .wrap .content ul li {float: left; width: 33.333%; height: 116px; margin: 15px 0;}
+#wrap #main #section6 .wrap .content ul li a {display: block; width: 100%; height: 100%; cursor: default;}
+#wrap #main #section6 .wrap .content ul li a img {width: auto;}
+#wrap #main #section6 .wrap .content ul li a img.addclick {outline: auto;}
+#wrap #main #section6 .wrap .content ul li:nth-child(2) {text-align: center;}
+#wrap #main #section6 .wrap .content ul li:nth-child(5) {text-align: center;}
+#wrap #main #section6 .wrap .content ul li:nth-child(3) {text-align: right;}
+#wrap #main #section6 .wrap .content ul li:nth-child(6) {text-align: right;}
+
+/* section7 */
+#wrap #main #section7 {position: relative; z-index: 2; width: 100%; height: 650px; background: url(../images/c19c76_9b337c10f2824c738db5408d5983c23f_mv2_d_5120_3413_s_4_2.jpg) no-repeat fixed; background-size: cover;}
+
+/* section8 */
+#wrap #main #section8 {position: relative; z-index: 2; width: 100%; height: 1860px; background: #151A2C;}
+#wrap #main #section8 .wrap {position: relative; width: 940px; height: 100%; margin: 0 auto;}
+#wrap #main #section8 .wrap .title {padding: 91px 0 33px 0; border-bottom: 1px solid #fff;}
+#wrap #main #section8 .wrap .title h2 {font-size: 70px;}
+#wrap #main #section8 .wrap .line {position: absolute; top: 10.5%; left: 49.9%; width: 1px; height: 50px; background: #fff;}
+#wrap #main #section8 .wrap .content {padding: 100px 0; width: 100%; height: 1664.02px;}
+#wrap #main #section8 .wrap .content ul {width: 100%; height: 100%;}
+#wrap #main #section8 .wrap .content ul li {position: relative; float: left; width: 48.93%; height: 456px;}
+#wrap #main #section8 .wrap .content ul li span{position: relative; top: 10%; left: 5%; font-size: 12px;}
+#wrap #main #section8 .wrap .content ul li .sub-title{position: absolute; top: 80%; left: 8%; width: 83%; padding-bottom: 10px; border-bottom: 1px solid #fff; opacity: 1;}
+#wrap #main #section8 .wrap .content ul li .sub-title h3 {font-size: 22px; font-weight: 600;}
+#wrap #main #section8 .wrap .content ul li .sub-title h3 a {color: #fff; transition: all .3s;}
+#wrap #main #section8 .wrap .content ul li .sub-title h3 a:hover {color: #E84A43;}
+
+#wrap #main #section8 .wrap .content ul li:nth-child(1) {margin: 0 10px 10px 0; background: url(../images/a656b0ef957a443c8f927793b82cdfa0.png) no-repeat 50% 50%; background-size: cover;}
+#wrap #main #section8 .wrap .content ul li:nth-child(3) {margin: 10px 10px 10px 0; background: url(../images/4c2d9489b9554ec7a9fd08808b4d8a6a.png) no-repeat 50% 50%; background-size: cover;}
+#wrap #main #section8 .wrap .content ul li:nth-child(5) {margin: 10px 10px 0 0; background: url(../images/3039989dd22d4280b1c5b2245c566173.png) no-repeat 50% 50%; background-size: cover;}
+
+#wrap #main #section8 .wrap .content ul li:nth-child(2) {margin: 0 0 10px 10px; background: url(../images/d78a2fce0b7c4bf3a4dc7bd49cdfe36a.png) no-repeat 50% 50%; background-size: cover;}
+#wrap #main #section8 .wrap .content ul li:nth-child(4) {margin: 10px 0 10px 10px; background: url(../images/1e6d912903784bdb93833ed466bc37ab.png) no-repeat 50% 50%; background-size: cover;}
+#wrap #main #section8 .wrap .content ul li:nth-child(6) {margin: 10px 0 0 10px; background: url(../images/4167bc84ccf8457e9304fc2a3e3561c0.png) no-repeat; background-size: cover;}
+
+/* section9 */
+#wrap #main #section9 {position: relative; z-index: 2; width: 100%; height: 739px; background: #E84A43;}
+#wrap #main #section9 .wrap {position: relative; width: 780px; height: 100%; margin: 0 auto;}
+#wrap #main #section9 .wrap .title {padding: 163px 0 53px 0; border-bottom: 1px solid #fff;}
+#wrap #main #section9 .wrap .title h2 {font-size: 70px;}
+#wrap #main #section9 .wrap .content {display: inline-block; padding-top: 30px; font-size: 22px;}
+#wrap #main #section9 .wrap .content01 {width: 270px; border-right: 1px solid #fff;}
+#wrap #main #section9 .wrap .content01 a {display: inline-block; margin-top: 40px; padding: 10px 30px; background: #fff; color: #E84A43; transition: all .2s; text-align: center; font-size: 16px;}
+#wrap #main #section9 .wrap .content01 a:hover {opacity: .7;}
+#wrap #main #section9 .wrap .content01 a:focus {opacity: .7;}
+#wrap #main #section9 .wrap .content02 {position: absolute; top: auto; right: 5%; width: 433px; height: 31px;}
+#wrap #main #section9 .wrap .content02 p {margin-bottom: 15px;}
+#wrap #main #section9 .wrap .content02 input {background: transparent; border: 1px solid #fff; width: 433px; height: 40px; padding: 0 20px; outline:none; margin-bottom: 10px;}
+#wrap #main #section9 .wrap .content02 input:hover { outline: auto #fff;}
+#wrap #main #section9 .wrap .content02 input::placeholder {color: #fff;}
+#wrap #main #section9 .wrap .content02 a {display: block; width: 433px; height: 40px; background: #fff; color: #E84A43; transition: all .2s; text-align: center; line-height: 40px; font-size: 14px;}
+#wrap #main #section9 .wrap .content02 a:hover {background: #E84A43; color: #fff;}
+#wrap #main #section9 .wrap .content02 a:focus {background: #E84A43; color: #fff;}
+
+/* section10 */
+#wrap #main #section10 {width: 100%; height: 650px;}
+#wrap #main #section10 iframe {width: 100%; height: 100%;}
+
+/* footer */
+#wrap #footer {position: relative; z-index: 2; width: 100%; height: 370px; background: #151A2C;}
+#wrap #footer .wrap {width: 780px; height: 100%; margin: 0 auto;}
+#wrap #footer .wrap .top {padding-top: 87px; border-bottom: 1px solid #fff; width: 100%; height: 60%; }
+#wrap #footer .wrap .top .left {float: left; width: 28%; height: 100%;}
+#wrap #footer .wrap .top .left h1 a {font-size: 30px; font-weight: 600; color: #E84A43;}
+
+#wrap #footer .wrap .top .center {float: left; width: 44%; height: 100%; border-left: 1px solid #fff; border-right: 1px solid #fff; padding: 0 80px;}
+#wrap #footer .wrap .top .center address {font-size: 16px; width: 100%; line-height: 160%; text-align: left;}
+
+#wrap #footer .wrap .top .right {float: left; position: relative; width: 28%; height: 100%; padding: 0 30px;}
+#wrap #footer .wrap .top .right .text {line-height: 150%; font-size: 16px;}
+#wrap #footer .wrap .top .right .sns {position: absolute; top: auto; left: 10%; padding-top: 20px;}
+#wrap #footer .wrap .top .right .sns span {margin: 0 5px;}
+
+
+#wrap #footer .wrap .bottom {padding-top: 25px; font-size: 16px;}

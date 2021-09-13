@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0; border: 0; vertical-align: middle; box-sizing: border-box;}
+html, body {width: 100%; height: 100%;}
+
+body {font: normal 14px/1 'IBM Plex Sans KR', 'sans-serif'; background: transparent; color: #fff;}
+header, main, footer, nav, section, article, aside {display: block;}
+h1, h2, h3, h4, h5, h6 {font-size: 14px; font-weight: normal;}
+a {text-decoration: none; color: #fff;}
+ul, li {list-style: none;}
+address, em, i {font-style: normal;}
+.clear::after {content: ''; display: block; clear: both;}
+.hide {display: none;}
